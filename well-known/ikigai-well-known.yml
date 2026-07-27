@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://ikigai.net/.well-known/*
+host: https://ikigai.net
+note: >-
+  ikigai.net currently resolves to a placeholder/landing page (Cloudflare-fronted,
+  Fastmail email). No .well-known discovery documents are published. Absence is
+  valid, expected data recorded here so a re-run knows these paths were probed.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
